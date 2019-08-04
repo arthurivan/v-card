@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arthur Cowdery Web Developer</title>
+
+	<meta charset="utf-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div id="container">
+		<!-- Header -->
+		<header class="clear-fix">
+			<div id="logo">
+				<a href="index.html"><img alt="Arthur Cowdery Logo" src="img/logo.png" width="42"></a>
+			</div>
+
+			
+			<div id="header-inner">
+				<!-- Navigation -->
+				<nav>
+					<ul>
+						<li><a class="active" href="#about">About me</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+				<!-- End Navigation -->
+
+				<!-- Social Media -->
+				<aside id="social-media">
+					<ul>
+						<li><a href="#"><i class='fab fa-facebook-f'></i></a></li>
+						<li><a href="#"><i class='fab fa-github'></i></a></li>
+					</ul>
+				</aside>
+				<!-- End Social Media -->
+			</div>
+
+		</header>
+		<!-- End Header -->
+
+		<div id="loading-container">
+			<div id="loading"></div>
+		</div>
+
+		<!-- Content -->
+		<div id="content" class="clear-fix">
+
+			<!-- About -->
+			<section id="about">
+				<aside>
+					<div id="photo">
+						<img  alt="" src="img/me.jpg">
+					</div>
+
+					<div id="skills">
+						<h3><span>My Skills</span></h3>
+						<ul>
+							<li data-value="60"> JS ES6 / HTML 5 / CSS3 / Canvas</li>
+							<li data-value="40"><i class='fab fa-angular' style='font-size:24px'></i> / AngularJS / jQuery</li>
+							<li data-value="40">MongoDB / MongoDB Atlas</li>
+							<li data-value="60"><i class='fab fa-node' style='font-size:24px'></i> / Node with Express</li>
+							<li data-value="60">Functional Programming with JS</li>
+							<li data-value="50">OOP with JS</li>
+              <li data-value="60">Cypress.io front end testing / Mocha unit testing</li>
+						</ul>
+					</div>
+
+				</aside>
+
+				<div class="about-content">
+					<h2>About me</h2>
+					<p>Hire me! I'm originally from California but now reside in Ukraine. My interest in IT began with working as an E.S.L., English as a second language, teacher in Kyiv, Ukraine. Most of my clients were IT guys and expected me to be able to discuss various technologies in English. Despite my lack of a C.S. (computer science) degree, my love of teaching pushed me to learn more and more of the IT sphere to better communicate with my clients.</p>
+
+					<blockquote>Self-education is, I firmly believe, the only kind of education there is.
+          ― Isaac Asimov</blockquote>
+
+					<p>I've spent the last year self studying and have even moved permanently to Ukraine to cut my expenses to allow me to self study full time. I started with JS because it seemed more forgiving since it is a loosely type language. I love non relational databases such as Mongo, which is a smart match for Node (w/ express) for the back end, and have experimented with all sorts of template engines for the front end. I'm comfortable with OOP but I'm not a purist since classes in JS is really just syntactical sugar. I prefer prototypal inheritance of JS and using the language in a more functional/declarative way. I grok ES6 including promises, generators, iterators, etc. and I am confident applying various programming patterns (MVC.</p>
+          <br>
+          <p>I didn't study CS in university but my interest in it has pushed me to complete a number of CS courses that began with Khan Academy, freecodecamp, w3school, MongoDB's official courseware, tons of udemy courses that covered: data structures, networking protocols, cryptology, algorithms, and more.  I really hope to be a good fit as a remote guy with an international team since my wife is an automated QA and has helps me grok how teams work with scrum, agile, continuous integration, and my extensive experience as an english teacher has helped me develop the skill of controlling my english level when necessary to ensure great communication.</p>
+
+					<h2>Services</h2>
+					<ul>
+						<li class="icon-1">PSD to Responsive Website</li>
+						<li class="icon-2">RESTful API with Node & Express</li>
+						<li class="icon-3">Web Apps with MEAN</li>
+					</ul>
+				</div>
+			</section>
+			<!-- End About -->
+
+			<!-- Portfolio -->
+			<section id="portfolio">
+				<div class="dropdown"></div>
+
+				<ul id="portfolio-filter">
+					<li><a href="" class="active" data-filter="*">All</a></li>
+					<li><a href="" data-filter=".node">Node</a></li>
+        	<li><a href="" data-filter=".canvas">Canvas</a></li>
+        	<li><a href="" data-filter=".illustration">AngularJS</a></li>
+        	<li><a href="" data-filter=".mongo">MongoDB</a></li>
+        	<li><a href="" data-filter=".log-design">JWT</a></li>
+	     	</ul>
+
+       	<ul id="portfolio-list" class="clear-fix">
+       		<li class="node">
+       			<a href="http://farm4.staticflickr.com/3557/3534682803_b433fb51b2_z.jpg" class="image" title="Hello world!">
+       				<img  alt="" src="img/race.png">
+       			</a>
+       		</li>
+       		<li class="canvas">
+       			<a href="https://arthurivan.github.io/racing/public/index.html" class="video" title="Hello world!">
+       				<img  alt="" src="img/racing-game.png">
+       			</a>
+       		</li>
+       		<li class="node">
+       			<a href="http://farm4.staticflickr.com/3557/3534682803_b433fb51b2_z.jpg" class="image" title="Hello world!">
+       				<img  alt="" src="upload/portfolio/3.png">
+       			</a>
+       		</li>
+       		<li class="webdesign 3d-rchitecture">
+       			<a href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1" class="video" title="Hello world!">
+       				<img  alt="" src="upload/portfolio/4.png">
+       			</a>
+       		</li>
+       		<li class="canvas">
+       			<a href="https://arthurivan.github.io/tennis-game/" class="video"><img  alt="" src="img/tennis-game.png"></a>
+       		</li>
+       		<li class="illustration">
+       			<a href="http://farm5.staticflickr.com/4080/4743036023_74ae2c9c53_z.jpg" class="image"><img  alt="" src="img/6.jpg"></a>
+       		</li>
+       		<li class="webdesign">
+       			<a href="http://www.youtube.com/embed/L9szn1QQfas" class="video"><img  alt="" src="img/7.png"></a>
+       		</li>
+       		<li class="branding">
+       			<a href="http://vimeo.com/moogaloop.swf?clip_id=3979989&amp;fullscreen=1" class="image" title="Hello world!">
+       				<img  alt="" src="img/8.png">
+       			</a>
+       		</li>
+       		<li class="canvas">
+       			<a href="https://arthurivan.github.io/brick-breaker/" class="video"><img  alt="" src="img/brick-breaking-game.png"></a>
+       		</li>
+       		<li class="webdesign 3d-rchitecture">
+       			<a href="http://farm5.staticflickr.com/4080/4743036023_74ae2c9c53_z.jpg" class="image"><img  alt="" src="img/10.png"></a>
+       		</li>
+       		<li class="illustration">
+       			<a href="http://farm4.staticflickr.com/3557/3534682803_b433fb51b2_z.jpg" class="image"><img  alt="" src="img/11.png"></a>
+       		</li>
+       		<li class="canvas">
+       			<a href="https://arthurivan.github.io/Warrior-Legend/public/" class="video"><img  alt="" src="img/collectKeys-game.png"></a>
+       		</li>
+       	</ul>
+			</section>
+			<!-- End Portfolio -->
+
+			<!-- Contact -->
+			<section id="contact">
+				<div class="left">
+					<h2>Get in touch with us</h2>
+					<p>Nam pharetra mollis erat quis pulvinar. Donec ut metus in libero elementum pulvinar vitae quis sapien. Proin nec diam purus, at imperdiet diam. Vivamus auctor, purus et</p>
+
+					<h2>Contact info</h2>
+					<ul>
+						<li class="mail"><a href="mailto:loremipsum@contact.com">loremipsum@contact.com</a></li>
+						<li class="phone">388 (000) 1234 5667 8900</li>
+						<li class="website"><a href="#">www.yoursitename.com</a></li>
+					</ul>
+
+					<h2>Send us a message</h2>
+
+					<form id="contact-form">
+						<input name="name" type="text" placeholder="Name" value="">
+						<input name="mail" type="text" placeholder="E-mail" value="">
+						<textarea name="comment" placeholder="Comment"></textarea>
+						<div id="msg" class="message"></div>
+						<input type="submit" id="submit" value="Send">
+					</form>
+				</div>
+
+				<div id="map-container">
+					<div id="map"></div>
+					<div class="top-shadow"></div>
+					<div class="left-shadow"></div>
+					<div class="right-shadow"></div>
+					<div class="bottom-shadow"></div>
+				</div>
+			</section>
+			<!-- End Contact -->
+		</div>
+		<!-- End Content -->
+
+		<!-- Footer -->
+		<footer class="clear-fix">
+			<p>&copy; 2019 - Made by Arthur Cowdery</p>
+		</footer>
+		<!-- End Footer -->
+	</div>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+	<script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="js/gmap3.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	
+	<script type="text/javascript">
+		 var _gaq = _gaq || [];
+		 _gaq.push(['_setAccount', 'UA-31561727-1']);
+		 _gaq.push(['_trackPageview']);
+
+		 (function() {
+		   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		 })();
+	</script>
+</body>
+</html>
