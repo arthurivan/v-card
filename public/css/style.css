@@ -545,56 +545,6 @@ header nav li a.active {
 	max-height: 100%;
 }
 
-#map-container .top-shadow {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	right: 0px;
-	height: 14px;
-	background: url(../img/map-shadow-top.png) no-repeat;
-	z-index: 98;
-}
-
-#map-container .left-shadow {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 5px;
-	bottom: 13px;
-	background: url(../img/map-shadow-left.png) repeat-y;
-	z-index: 98;
-}
-
-#map-container .right-shadow {
-	position: absolute;
-	right: 0px;
-	top: 0px;
-	width: 5px;
-	bottom: 0px;
-	background: url(../img/map-shadow-right.png) repeat-y;
-	z-index: 98;
-}
-
-#map-container .bottom-shadow {
-	position: absolute;
-	left: 0px;
-	bottom: 0px;
-	width: 372px;
-	height: 13px;
-	background: url(../img/map-shadow-bottom.png) no-repeat;
-	z-index: 98;
-}
-
-#map-container:after {
-	content: url(../img/map-image.png);
-	position: absolute;
-	right: -1px;
-	bottom: 0px;
-	width: 121px;
-	height: 128px;
-	z-index: 99;
-}
-
 /*-------------------------------------------------*
 /* =  Footer
 /*-------------------------------------------------*/
@@ -903,22 +853,6 @@ footer p {
 	#loading-container {
 		margin-left: -363px;
 		width: 726px;
-	}
-
-	/*-------------------------------------------------*
-	/* =  Home - Flexslider
-	/*-------------------------------------------------*/
-	#slider-container {
-	 	width: 726px;
-	 	height: 304px;
-	}
-
-	#slider-bg { 	
-		background: url(../img/responsive/ipad/slider-bg.png) no-repeat;
-	}
-	/* -- Control Nav -- */
-	.flex-control-nav {
-		right: 210px;
 	}
 
 	/*-------------------------------------------------*

@@ -2,17 +2,6 @@ jQuery(document).ready(function($) {
 
 	jQuery.noConflict();
 
-	/* ---------------------------------------------------------------------- */
-	/*	Slider - [Flexslider]
-	/* ---------------------------------------------------------------------- */
-  	try {
-		$('.flexslider').flexslider({
-			animation: 'fade',
-			controlsContainer: ".slider-wrapper"
-		});
-	} catch(err) {
-
-	}
 
 	/* ---------------------------------------------------------------------- */
 	/*	Input & Textarea Placeholder
