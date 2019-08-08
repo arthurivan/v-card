@@ -162,53 +162,6 @@ jQuery(document).ready(function($) {
 		}
 	});
 
-	/* ---------------------------------------------------------------------- */
-	/*	Contact Map
-	/* ---------------------------------------------------------------------- */
-	try {
-		var create_map = function() {
-			$('#map').remove();
-			$('#map-container').append('<div id="map"></div>');
-
-			$('#map').gmap3({
-		        action: 'addMarker',
-		        address: "1319 Stanley avenue, Glendale, Los Angeles, USA",
-		        map:{
-		        	center: true,
-		        	zoom: 14
-		       		},
-		        },
-		        {action: 'setOptions', args:[{scrollwheel:true}]}
-			);
-		}
-	} catch(err) {
-
-	}
-
-	/* ---------------------------------------------------------------------- */
-	/*	Contact Form
-	/* ---------------------------------------------------------------------- */
-	$('#submit').on('click', function(e){
-		e.preventDefault();
-		
-		$this = $(this);
-		
-		$.ajax({
-			type: "POST",
-			url: "contact.php",
-			dataType: 'json',
-			cache: false,
-			data: $('#contact-form').serialize(),
-			success: function(data) {
-				if(data.info != 'error'){
-					$this.parents('form').find('input[type=text],textarea,select').filter(':visible').val('');
-					$('#msg').hide().removeClass('success').removeClass('error').addClass('success').html(data.msg).fadeIn('slow').delay(5000).fadeOut('slow');
-				} else {
-					$('#msg').hide().removeClass('success').removeClass('error').addClass('error').html(data.msg).fadeIn('slow').delay(5000).fadeOut('slow');
-				}
-			}
-		});
-	});
 	
 	/* ---------------------------------------------------------------------- */
 	/*	Others

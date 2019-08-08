@@ -13,6 +13,7 @@
 	<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
 </head>
 <body>
 	<div id="container">
@@ -112,8 +113,8 @@
 
        	<ul id="portfolio-list" class="clear-fix">
        		<li class="node">
-       			<a href="http://farm4.staticflickr.com/3557/3534682803_b433fb51b2_z.jpg" class="image" title="Hello world!">
-       				<img  alt="" src="img/race.png">
+       			<a href="https://node-rest-uptime.herokuapp.com/"  title="Hello world!">
+       				<img  alt="" src="img/node-uptime.png">
        			</a>
        		</li>
        		<li class="canvas">
@@ -173,19 +174,21 @@
 						<li class="phone">+38 050 539 3169</li>
 					</ul>
 
-					<h2>Send me a message</h2>
-
-					<form id="contact-form">
-						<input name="name" type="text" placeholder="Name" value="">
-						<input name="mail" type="text" placeholder="E-mail" value="">
-						<textarea name="comment" placeholder="Comment"></textarea>
-						<div id="msg" class="message"></div>
-						<input type="submit" id="submit" value="Send">
-					</form>
 				</div>
 
-				<div id="map-container">
-					<div id="map"></div>
+				<div id="chat-container">
+					<div id="chat">
+						<div id="live-chat">
+            <h2>Live Chat</h2>
+            <div id="chat-window">
+                <div id="output"></div>
+                <div id="feedback"></div>
+            </div>
+            <input id="handle" type="text" placeholder="Handle" />
+            <input id="message" type="text" placeholder="Message" />
+            <button id="send">Send</button>
+        		</div>
+        	</div>
 				</div>
 			</section>
 			<!-- End Contact -->
@@ -203,9 +206,8 @@
 	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
 	<script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
 	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
-	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-    <script type="text/javascript" src="js/gmap3.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
+	<script src="js/chat.js"></script>
 	
 </body>
 </html>
