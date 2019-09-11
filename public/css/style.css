@@ -441,10 +441,9 @@ header nav li a.active {
 #contact li {
 	display: block;
 	height: 19px;
-	padding-left: 25px;
 	line-height: 20px;
 	margin-bottom: 5px;
-	font-size: 11px;
+	font-size: 18px;
 	color: #5a5a5a;
 }
 
@@ -452,23 +451,15 @@ header nav li a.active {
 	color: #5a5a5a;
 }
 
-#contact li.mail {
-	background: url(../img/mail-icon.png) no-repeat left center;
+#contact i {
+  padding-right: 7px;
 }
 
-#contact li.phone {
-	background: url(../img/phone-icon.png) no-repeat left center;
+#contact li a:hover i{
+  color: #4AC959;
 }
 
-#contact li.website {
-	background: url(../img/website-icon.png) no-repeat left center;
-}
-
-#contact form {
-	margin-top: 7px;
-}
-
-#contact input[type="text"], #contact textarea {
+#contact input[type="text"] {
 	clear: both;
 	float: left;
 	font-family: arial;
@@ -481,52 +472,6 @@ header nav li a.active {
 	width: 180px;
 	display: block;
 	height: 10px;
-}
-
-#contact textarea {
-	width: 350px;
-	max-width: 350px;
-	height: 110px;
-	margin-bottom: 10px;
-}
-
-#contact input[type="submit"] {
-	float: right;
-	padding: 7px 23px;
-	color: #fff;
-	border: none;
-	background: #619d21;
-	cursor: pointer;
-
-	transition: color 0.2s linear;
-	-moz-transition: color 0.2s linear;
-	-webkit-transition: color 0.2s linear;
-	-o-transition: color 0.2s linear;
-}
-
-#contact input[type="submit"]:hover {
-	opacity: 0.85;
-	-moz-opacity: 0.85;
-	filter:alpha(opacity=85);
-}
-
-#contact .message {
-	float: left;
-	max-width: 290px;
-	height: 30px;
-	margin-top: 2px;
-	line-height: 30px;
-	overflow: hidden;
-	font-size: 11px;
-	font-style: italic;
-}
-
-#contact .message.error {
-	color: #a30000;
-}
-
-#contact .message.success {
-	color: #619d21;
 }
 
 #chat-container {
@@ -931,11 +876,6 @@ footer p {
 		width: 337px;
 	}
 
-	#contact textarea {
-		width: 313px;
-		max-width: 313px;
-	}
-
 	#chat-container {
 		width: 317px;
 		height: 524px;
@@ -1122,10 +1062,6 @@ footer p {
 		width: 398px;
 		padding: 10px 20px 20px 20px;
 	}
-	#contact textarea {
-		width: 374px;
-		max-width: 374px;
-	}
 
 	#chat-container {
 		width: 398px;
@@ -1303,11 +1239,6 @@ footer p {
 	#contact .left {
 		width: 260px;
 		padding: 10px 20px 20px 20px;
-	}
-
-	#contact textarea {
-		width: 236px;
-		max-width: 236px;
 	}
 
 	#chat-container {
