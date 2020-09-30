@@ -1,0 +1,23 @@
+{
+  "name": "v-card",
+  "version": "1.0.0",
+  "description": "my electronic business card to showcase my portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurivan/v-card.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthurivan/v-card/issues"
+  },
+  "homepage": "https://github.com/arthurivan/v-card#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  }
+}

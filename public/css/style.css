@@ -53,6 +53,7 @@ input, select, textarea {
 /* =  General Style
 /*-------------------------------------------------*/
 html {
+	overflow: hidden;
 }
 
 body {
